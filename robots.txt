@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://al-adams-art.github.io/sitemap.xml
