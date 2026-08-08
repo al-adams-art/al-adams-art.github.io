@@ -46,7 +46,7 @@ window.AL_ADAMS_SITE = {
     {
       id: "AL-02",
       image: "https://drive.google.com/thumbnail?id=1Mczof1qGwmCV6Lg4CMbM_xDi73P_rQZE&sz=w2400",
-      title: "",
+      title: "Last Light Before Trouble",
       year: "",
       medium: "",
       dimensions: "",
@@ -61,7 +61,7 @@ window.AL_ADAMS_SITE = {
     {
       id: "AL-03",
       image: "https://drive.google.com/thumbnail?id=1BOSI9ZnC9NTPBKsd-8t_JAV994GGsKvz&sz=w2400",
-      title: "",
+      title: "Storm Coming",
       year: "",
       medium: "",
       dimensions: "",
@@ -76,7 +76,7 @@ window.AL_ADAMS_SITE = {
     {
       id: "AL-04",
       image: "https://drive.google.com/thumbnail?id=1hKIgCAP3l8J0-Ow4mvVVXBP9J7FjoTTc&sz=w2400",
-      title: "",
+      title: "Open Late",
       year: "",
       medium: "",
       dimensions: "",
@@ -91,7 +91,7 @@ window.AL_ADAMS_SITE = {
     {
       id: "AL-05",
       image: "https://drive.google.com/thumbnail?id=1P_w9SXYeHpoc1bQyJWKi1jrcbRi40X7w&sz=w2400",
-      title: "",
+      title: "Failure in the Moonlight",
       year: "",
       medium: "",
       dimensions: "",
@@ -106,7 +106,7 @@ window.AL_ADAMS_SITE = {
     {
       id: "AL-06",
       image: "https://drive.google.com/thumbnail?id=1uBEA9D3iGhRgLobVS9Iz_Oe9is7NQuAN&sz=w2400",
-      title: "",
+      title: "Surf the Rainbow",
       year: "",
       medium: "",
       dimensions: "",
@@ -121,7 +121,7 @@ window.AL_ADAMS_SITE = {
     {
       id: "AL-07",
       image: "https://drive.google.com/thumbnail?id=1z-Xu6rtoDG-fp6XEFBQr_NhxiE5r0TgU&sz=w2400",
-      title: "",
+      title: "Mr. Noodle and Company",
       year: "",
       medium: "",
       dimensions: "",
@@ -136,7 +136,7 @@ window.AL_ADAMS_SITE = {
     {
       id: "AL-08",
       image: "https://drive.google.com/thumbnail?id=1go0nso6406mK1H9RRdAm_Ezb6Z5-DuWf&sz=w2400",
-      title: "",
+      title: "Curious Collections of Crap",
       year: "",
       medium: "",
       dimensions: "",
@@ -151,7 +151,7 @@ window.AL_ADAMS_SITE = {
     {
       id: "AL-09",
       image: "https://drive.google.com/thumbnail?id=1AX5zwssRRS2VviCWlVt1S3adWawQPSxh&sz=w2400",
-      title: "",
+      title: "Further Curious Collections of Crap",
       year: "",
       medium: "",
       dimensions: "",
@@ -166,7 +166,7 @@ window.AL_ADAMS_SITE = {
     {
       id: "AL-10",
       image: "https://drive.google.com/thumbnail?id=1MVYfUSBwwq63F_T507msrbixCF7K92Gj&sz=w2400",
-      title: "",
+      title: "Jar of Things That Seemed Important",
       year: "",
       medium: "",
       dimensions: "",
@@ -181,7 +181,7 @@ window.AL_ADAMS_SITE = {
     {
       id: "AL-11",
       image: "https://drive.google.com/thumbnail?id=1dCue8CEddN06hsAsAx1pxIL3Oz1Ij8mX&sz=w2400",
-      title: "",
+      title: "Something Built a Nest Here",
       year: "",
       medium: "",
       dimensions: "",
@@ -196,7 +196,7 @@ window.AL_ADAMS_SITE = {
     {
       id: "AL-12",
       image: "https://drive.google.com/thumbnail?id=1ikV9KOvWvtLmp3BLw12jvq7d0DG4IOFI&sz=w2400",
-      title: "",
+      title: "The Department of Small Important Things",
       year: "",
       medium: "",
       dimensions: "",
