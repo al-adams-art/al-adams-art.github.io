@@ -5,7 +5,7 @@ window.AL_ADAMS_SITE = {
     statement: "A. L. Adams makes art from fragments, stories, symbols, strange observations, and the things most people leave behind. The work moves between visual storytelling, altered objects, miniature worlds, paintings, found materials, and beautiful disorder."
   },
   links: {
-    email: "inkandanarchy@gmail.com",
+    email: "the.official.a.l.adams@gmail.com",
     shop: "",
     instagram: "",
     facebook: "",
