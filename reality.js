@@ -7,7 +7,7 @@
     {code:'04-B', c:['#101820','#18252e','#e6e2d8','#f4f0e7','#a34f35','#365a70','#c4ab62','#9ea7aa'], serif:"Palatino,'Palatino Linotype',serif", sans:"'Trebuchet MS',Arial,sans-serif", note:'For external use only.'},
     {code:'11-C', c:['#1a1714','#27211c','#e1d5bd','#f0e6d2','#713c2c','#39464d','#b79b53','#aa9a82'], serif:"Baskerville,'Times New Roman',serif", sans:'Verdana,Arial,sans-serif', note:'Please retain this card for evidentiary purposes.'},
     {code:'27-F', c:['#141216','#211e24','#ded8d0','#eee9e3','#845064','#2f4059','#bfae73','#a29ca7'], serif:'Garamond,Georgia,serif', sans:'Tahoma,Arial,sans-serif', note:'No warranty expressed, implied, or available in this dimension.'},
-    {code:'31-K', c:['#151816','#202822','#e3dfcf','#f3f0e2','#92502d','#304d47','#c0aa62','#9f9f8f'], serif:"'Times New Roman',Times,serif", sans:"'Arial Narrow',Arial,sans-serif", note:'Void in jurisdictions governed by common sense.'},
+    {code:'31-K', c:['#151816','#202822','#e3dfcf','#f3f0e2','#92502d','#304d47','#c0aa62','#9f9f8f'], serif:"'Times New Roman',Times,serif", sans:"'Arial Narrow',Arial,sans-serif", note:'Approved for limited civilian handling.'},
     {code:'66-Q', c:['#181310','#291e18','#e7d9c8','#f6eadb','#a0442b','#3c4454','#c6a45a','#aa9989'], serif:'Cambria,Georgia,serif', sans:'Calibri,Arial,sans-serif', note:'Some assembly of reality required.'}
   ];
 
@@ -129,7 +129,6 @@
     toastTimer=setTimeout(()=>toast.classList.remove('show'),4200);
   }
 
-  const RELICS=['key','bottlecap','toothpick','thread','button'];
   const relicLabels={key:'ITEM 01-A / BENT KEY',bottlecap:'ITEM 02-C / BOTTLE CAP',toothpick:'ITEM 03-F / TOOTHPICK',thread:'ITEM 04-B / THREAD',button:'ITEM 05-D / BUTTON'};
   function getRelics(){try{return new Set(JSON.parse(localStorage.getItem('al-relics')||'[]'));}catch{return new Set();}}
   function saveRelics(set){localStorage.setItem('al-relics',JSON.stringify([...set]));}
@@ -151,12 +150,12 @@
   syncLedger();
 
   const notes=[
-    'No refunds on existential damage.',
-    'Objects in studio may be stranger than they appear.',
     'Some assembly of reality required.',
     'Please retain this card for evidentiary purposes.',
     'Results may vary by dimension.',
-    'For external use only.'
+    'For external use only.',
+    'Approved for limited civilian handling.',
+    'No warranty expressed, implied, or available in this dimension.'
   ];
   if(!sessionStorage.getItem('al-note-shown')){
     setTimeout(()=>{
