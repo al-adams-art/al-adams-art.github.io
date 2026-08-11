@@ -2,7 +2,7 @@ window.AL_ADAMS_SITE = {
   identity: {
     name: "A. L. ADAMS",
     headline: "ART FROM THE BEAUTIFUL WRECKAGE",
-    statement: "A. L. Adams makes art from fragments, stories, symbols, strange observations, and the things most people leave behind. The work moves between visual storytelling, altered objects, miniature worlds, paintings, found materials, and beautiful disorder."
+    statement: "A. L. Adams works across painting, altered objects, miniature worlds, found materials, drawing, visual storytelling, and narrative projects. The work tends to begin with a thing that already has a history and asks what else it can become."
   },
   links: {
     email: "the.official.a.l.adams@gmail.com",
@@ -14,11 +14,19 @@ window.AL_ADAMS_SITE = {
   territories: [
     {
       name: "CHURCH OF SACRED DEBRIS",
-      text: "Transformation, strange relics, discarded material, beautiful ruin, irreverence, survival, and meaning made from what remains."
+      text: "Transformation, relics, discarded material, ruin, irreverence, survival, and meaning made from what remains."
     },
     {
       name: "INK AND ANARCHY",
-      text: "Visual storytelling, independent creation, unruly ideas, writing, imagery, and work that refuses to behave politely merely because somebody designed a category for it."
+      text: "Visual storytelling, independent creation, writing, imagery, and work that refuses to become polite merely because somebody designed a category for it."
+    },
+    {
+      name: "STUDIHELL 666",
+      text: "The working studio, coloring books, oddities, print experiments, small objects, and whatever survived production long enough to acquire paperwork."
+    },
+    {
+      name: "CANNED MEAT SHOW",
+      text: "A current graphic and performance experiment built from cheap television, food propaganda, thrift-store optimism, and the sort of confidence normally found on expired packaging."
     }
   ],
   artworks: [
@@ -213,6 +221,57 @@ window.AL_ADAMS_SITE = {
       alt: "Open metal case holding an orderly collection of small found objects, tools, printed pieces, beads, and miniature parts.",
       orientation: "landscape",
       note: ""
+    },
+    {
+      id: "AL-13",
+      image: "assets/portfolio/holy-smokes.svg",
+      title: "Holy Smokes",
+      category: "assemblage",
+      year: "2026",
+      medium: "altered found object / mixed media",
+      dimensions: "",
+      description: "",
+      availability: "archive",
+      price: "",
+      shopUrl: "",
+      alt: "Small altered red object with a metallic ring, a winged figure, and the words HOLY SMOKES arranged across the front.",
+      orientation: "portrait",
+      note: "A recent found-object piece photographed in the studio.",
+      featured: true
+    },
+    {
+      id: "AL-14",
+      image: "assets/portfolio/sibling-rivalry.svg",
+      title: "Sibling Rivalry",
+      category: "altered object",
+      year: "2026",
+      medium: "altered book / mixed media",
+      dimensions: "",
+      description: "",
+      availability: "archive",
+      price: "",
+      shopUrl: "",
+      alt: "Hand-held altered book spread with painted and collaged black shapes, tiny figures, and the words Sibling Rivalry.",
+      orientation: "portrait",
+      note: "Recent altered-book work photographed in hand.",
+      featured: true
+    },
+    {
+      id: "AL-15",
+      image: "assets/portfolio/sheep-skeet.svg",
+      title: "Sheep Skeet",
+      category: "altered object",
+      year: "2026",
+      medium: "altered book / mixed media",
+      dimensions: "",
+      description: "",
+      availability: "archive",
+      price: "",
+      shopUrl: "",
+      alt: "Hand-held altered book spread with a checkerboard field, a sheep image, painted marks, and the words SHEEP SKEET.",
+      orientation: "portrait",
+      note: "Recent altered-book work photographed in hand.",
+      featured: true
     }
   ]
 };
