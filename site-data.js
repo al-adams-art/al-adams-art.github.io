@@ -2,7 +2,7 @@ window.AL_ADAMS_SITE = {
   identity: {
     name: "A. L. ADAMS",
     headline: "ART FROM THE BEAUTIFUL WRECKAGE",
-    statement: "A. L. Adams works across painting, altered objects, miniature worlds, found materials, drawing, visual storytelling, and narrative projects. The work tends to begin with a thing that already has a history and asks what else it can become."
+    statement: "A. L. Adams works across painting, altered objects, miniature worlds, found materials, drawing, visual storytelling, and narrative projects."
   },
   links: {
     email: "the.official.a.l.adams@gmail.com",
@@ -12,10 +12,10 @@ window.AL_ADAMS_SITE = {
     newsletter: ""
   },
   territories: [
-    {name:"CHURCH OF SACRED DEBRIS",text:"Transformation, relics, discarded material, ruin, irreverence, survival, and meaning made from what remains."},
-    {name:"INK AND ANARCHY",text:"Visual storytelling, independent creation, writing, imagery, and work that refuses to become polite merely because somebody designed a category for it."},
-    {name:"STUDIHELL 666",text:"The working studio, coloring books, oddities, print experiments, small objects, and whatever survived production long enough to acquire paperwork."},
-    {name:"CANNED MEAT SHOW",text:"A current graphic and performance experiment built from cheap television, food propaganda, thrift-store optimism, and the sort of confidence normally found on expired packaging."}
+    {name:"CHURCH OF SACRED DEBRIS",text:"Found materials, altered objects, repair, transformation, and the material history already present in discarded things."},
+    {name:"INK AND ANARCHY",text:"Writing, visual storytelling, independent publishing, and work that crosses literary and visual forms."},
+    {name:"STUDIHELL 666",text:"Coloring books, printed matter, visual experiments, small objects, and limited-run studio work."},
+    {name:"CANNED MEAT SHOW",text:"A graphic and performance project drawing on mid-century advertising, food packaging, cheap television, and commercial optimism."}
   ],
   artworks: [
     {id:"AL-01",image:"https://drive.google.com/thumbnail?id=1BqTMHi0u9C1PQLCJZxCul87tMTVpq58T&sz=w2400",title:"Kenny Leggins",category:"altered object",year:"",medium:"",dimensions:"",description:"",availability:"ask",price:"",shopUrl:"",alt:"Altered porcelain figurine with bright blue overalls, a small dog, and a hand-painted warning sign, photographed on paint cans in a workroom.",orientation:"portrait",note:"Started as a broken porcelain figurine recovered from a dumpster. Painted, altered, and given the wig."},
@@ -30,9 +30,9 @@ window.AL_ADAMS_SITE = {
     {id:"AL-10",image:"https://drive.google.com/thumbnail?id=1MVYfUSBwwq63F_T507msrbixCF7K92Gj&sz=w2400",title:"Jar of Things That Seemed Important",category:"assemblage",year:"",medium:"",dimensions:"",description:"",availability:"ask",price:"",shopUrl:"",alt:"Glass jar assemblage containing small natural and found materials, photographed lying on its side.",orientation:"landscape",note:""},
     {id:"AL-11",image:"https://drive.google.com/thumbnail?id=1dCue8CEddN06hsAsAx1pxIL3Oz1Ij8mX&sz=w2400",title:"Something Built a Nest Here",category:"assemblage",year:"",medium:"",dimensions:"",description:"",availability:"ask",price:"",shopUrl:"",alt:"Glass jar assemblage containing nest-like fibers, shells, a small red object, wood, and other collected materials.",orientation:"landscape",note:""},
     {id:"AL-12",image:"https://drive.google.com/thumbnail?id=1ikV9KOvWvtLmp3BLw12jvq7d0DG4IOFI&sz=w2400",title:"The Department of Small Important Things",category:"assemblage",year:"",medium:"",dimensions:"",description:"",availability:"ask",price:"",shopUrl:"",alt:"Open metal case holding an orderly collection of small found objects, tools, printed pieces, beads, and miniature parts.",orientation:"landscape",note:""},
-    {id:"AL-13",image:"assets/portfolio/holy-smokes.svg",title:"Holy Smokes",category:"assemblage",year:"2026",medium:"altered found object / mixed media",dimensions:"",description:"",availability:"archive",price:"",shopUrl:"",alt:"Small altered red object with a metallic ring, a winged figure, and the words HOLY SMOKES arranged across the front.",orientation:"portrait",note:"A recent found-object piece photographed in the studio.",featured:true},
-    {id:"AL-14",image:"assets/portfolio/sibling-rivalry.svg",title:"Sibling Rivalry",category:"altered object",year:"2026",medium:"altered book / mixed media",dimensions:"",description:"",availability:"archive",price:"",shopUrl:"",alt:"Hand-held altered book spread with painted and collaged black shapes, tiny figures, and the words Sibling Rivalry.",orientation:"portrait",note:"Recent altered-book work photographed in hand.",featured:true},
-    {id:"AL-15",image:"assets/portfolio/sheep-skeet.svg",title:"Sheep Skeet",category:"altered object",year:"2026",medium:"altered book / mixed media",dimensions:"",description:"",availability:"archive",price:"",shopUrl:"",alt:"Hand-held altered book spread with a checkerboard field, a sheep image, painted marks, and the words SHEEP SKEET.",orientation:"portrait",note:"Recent altered-book work photographed in hand.",featured:true}
+    {id:"AL-13",image:"assets/portfolio/holy-smokes.svg",title:"Holy Smokes",category:"assemblage",year:"2026",medium:"altered found object / mixed media",dimensions:"",description:"",availability:"archive",price:"",shopUrl:"",alt:"Small altered red object with a metallic ring, a winged figure, and the words HOLY SMOKES arranged across the front.",orientation:"portrait",note:"Recent found-object work.",featured:true},
+    {id:"AL-14",image:"assets/portfolio/sibling-rivalry.svg",title:"Sibling Rivalry",category:"altered object",year:"2026",medium:"altered book / mixed media",dimensions:"",description:"",availability:"archive",price:"",shopUrl:"",alt:"Hand-held altered book spread with painted and collaged black shapes, tiny figures, and the words Sibling Rivalry.",orientation:"portrait",note:"Recent altered-book work.",featured:true},
+    {id:"AL-15",image:"assets/portfolio/sheep-skeet.svg",title:"Sheep Skeet",category:"altered object",year:"2026",medium:"altered book / mixed media",dimensions:"",description:"",availability:"archive",price:"",shopUrl:"",alt:"Hand-held altered book spread with a checkerboard field, a sheep image, painted marks, and the words SHEEP SKEET.",orientation:"portrait",note:"Recent altered-book work.",featured:true}
   ]
 };
 ;(() => { const s=document.createElement("script"); s.src="reality.js"; document.head.appendChild(s); })();
