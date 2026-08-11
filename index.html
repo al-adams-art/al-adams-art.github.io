@@ -5,8 +5,23 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#171511">
   <title>A. L. Adams Studios</title>
-  <meta name="description" content="The visual work of A. L. Adams: paintings, altered objects, miniature worlds, assemblage, found materials, digital images, and current studio projects.">
+  <meta name="description" content="A. L. Adams Studios: visual work, books, objects, and current releases from Louisville, Kentucky.">
   <link rel="stylesheet" href="styles.css">
+  <style>
+    .home{min-height:auto;padding:82px 0 58px}
+    .home-copy h1{max-width:10ch;margin-bottom:0}
+    .home-release{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:58px 0 66px;background:var(--ink2)}
+    .home-release-grid{display:grid;grid-template-columns:minmax(190px,.42fr) minmax(0,1.58fr);gap:clamp(30px,6vw,82px);align-items:center}
+    .home-release-cover{display:block;max-width:340px;transform:rotate(-.55deg);transition:.18s var(--ease)}
+    .home-release-cover:hover{transform:rotate(0) translateY(-3px)}
+    .home-release-cover img{width:100%;aspect-ratio:5/8;object-fit:cover;border:1px solid var(--line);box-shadow:0 24px 60px rgba(0,0,0,.34)}
+    .home-release-copy h2{font:700 clamp(3rem,6.5vw,7rem)/.84 var(--serif);letter-spacing:-.06em;margin:13px 0 20px;max-width:10ch}
+    .home-release-hook{font:italic clamp(1.2rem,2vw,1.6rem)/1.45 var(--serif);color:#d7cbb8;max-width:680px}
+    .home-release-detail{max-width:710px;color:#bfb4a3}
+    .home-release-price{font:700 1rem/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--gold);margin:22px 0 18px}
+    .home-release-actions{display:flex;gap:10px;flex-wrap:wrap}
+    @media(max-width:760px){.home{padding-top:56px}.home-release-grid{grid-template-columns:1fr}.home-release-cover{max-width:240px}.home-release-copy h2{font-size:clamp(2.7rem,15vw,5rem)}}
+  </style>
 </head>
 <body data-page="home">
 <header class="site-header"><div class="shell header-row"><a class="brand" href="index.html">A. L. ADAMS</a><button class="nav-toggle" type="button" aria-expanded="false">Index</button><nav class="nav" aria-label="Primary"><a data-page="archive" href="archive.html">Archive</a><a data-page="shop" href="shop.html">Shop</a><a data-page="commissions" href="commissions.html">Commissions</a><a data-page="about" href="about.html">About</a><a data-page="cabinet" href="cabinet.html">The Cabinet</a></nav><div class="relic-meter" data-relic-meter>FOUND <strong>0/5</strong></div></div></header>
@@ -16,6 +31,26 @@
       <div class="home-copy">
         <div class="eyebrow">A. L. Adams / Louisville, Kentucky</div>
         <h1 id="home-title">A. L. ADAMS STUDIOS</h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-release" aria-labelledby="current-release-title">
+    <div class="shell home-release-grid">
+      <a class="home-release-cover" href="https://payhip.com/b/jt179" target="_blank" rel="noopener" aria-label="Buy The War Against Cooter Brown PDF on Payhip">
+        <img src="https://payhip.com/cdn-cgi/image/format=auto,width=900/https://pe56d.s3.amazonaws.com/o_1jvnh4slg13k1173b31v1asels1a.jpg" alt="Cover of The War Against Cooter Brown by A. L. Adams.">
+      </a>
+      <div class="home-release-copy">
+        <span class="eyebrow">Current release</span>
+        <h2 id="current-release-title">THE WAR AGAINST COOTER BROWN</h2>
+        <p class="home-release-hook"><strong>Two armies want Cooter Brown. Cooter Brown wants them to go away.</strong></p>
+        <p class="home-release-detail">Kentucky. Tennessee. Two governments. Contradictory records. One funeral. Forty pounds of turnips.</p>
+        <div class="home-release-price">87-page digital PDF · $5</div>
+        <div class="home-release-actions">
+          <a class="button primary" href="https://payhip.com/b/jt179" target="_blank" rel="noopener">Buy the PDF — $5</a>
+          <a class="button" href="archive.html">Enter the archive</a>
+          <a class="button" href="shop.html">Book details</a>
+        </div>
       </div>
     </div>
   </section>
