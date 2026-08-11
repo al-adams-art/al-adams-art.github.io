@@ -30,7 +30,7 @@
     return `mailto:${mail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   }
   function artCard(art){
-    return `<a class="art-card" data-category="${esc(art.category)}" href="${artHref(art)}">
+    return `<a class="art-card orientation-${esc(art.orientation || 'landscape')}" data-category="${esc(art.category)}" href="${artHref(art)}">
       <img src="${esc(art.image)}" alt="${esc(art.alt)}" loading="lazy">
       <div class="copy"><span class="micro">${esc(art.id)} / ${esc(art.category)}</span><strong>${esc(art.title)}</strong><span class="meta">Open record →</span></div>
     </a>`;
@@ -40,7 +40,7 @@
   if (featured) {
     const chosen = data.artworks.filter(a => a.featured).slice(0,3);
     const list = chosen.length === 3 ? chosen : data.artworks.slice(0,3);
-    featured.innerHTML = list.map(art => `<a class="feature-card" href="${artHref(art)}"><img src="${esc(art.image)}" alt="${esc(art.alt)}" loading="lazy"><div class="copy"><span class="micro">${esc(art.category)}</span><strong>${esc(art.title)}</strong><span class="micro">Open record →</span></div></a>`).join('');
+    featured.innerHTML = list.map(art => `<a class="feature-card orientation-${esc(art.orientation || 'landscape')}" href="${artHref(art)}"><img src="${esc(art.image)}" alt="${esc(art.alt)}" loading="lazy"><div class="copy"><span class="micro">${esc(art.category)}</span><strong>${esc(art.title)}</strong><span class="micro">Open record →</span></div></a>`).join('');
   }
 
   const archiveGrid = $('#archive-grid');
