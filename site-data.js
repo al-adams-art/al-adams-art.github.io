@@ -6,7 +6,7 @@ window.AL_ADAMS_SITE = {
   },
   links: {
     email: "the.official.a.l.adams@gmail.com",
-    shop: "",
+    shop: "https://payhip.com/ALAdamsStudio",
     instagram: "",
     facebook: "",
     newsletter: ""
